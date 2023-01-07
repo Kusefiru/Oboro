@@ -1,21 +1,26 @@
 {
-  "name": "oboro",
-  "displayName": "Oboro",
-  "description": "",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Oboro",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Oboro-color-theme.json"
-      }
-    ]
-  }
+	"name": "oboro",
+	"displayName": "Oboro",
+	"description": "",
+	"version": "0.0.1",
+	"publisher": "Kusefiru",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+		{
+			"label": "Oboro",
+			"uiTheme": "vs-dark",
+			"path": "./themes/Oboro-color-theme.json"
+		}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Kusefiru/Oboro.git"
+	}
 }
