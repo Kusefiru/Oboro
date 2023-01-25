@@ -4,7 +4,7 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"enumMember": {
-			"foreground": "#c569fd"
+			"foreground": "#c265e5"
 		},
 		"variable.constant": {
 			"foreground": "#68f096"
@@ -53,7 +53,7 @@
 			"name": "variable.parameter.function.language.special.self.python",
 			"scope": "variable.parameter.function.language.special.self.python",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -200,7 +200,7 @@
 			"name": "js/ts variable.other.constant",
 			"scope": "variable.other.constant",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -315,7 +315,7 @@
 			"name": "css property-name",
 			"scope": "support.type.vendored.property-name.css",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -405,7 +405,7 @@
 			"name": "js dom",
 			"scope": "support.type.object.dom",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -447,14 +447,14 @@
 			"name": "C type posix-reserved",
 			"scope": "support.type.posix-reserved.c,support.type.posix-reserved.cpp",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
 			"name": "C preprocessor",
 			"scope": "entity.name.function.preprocessor.c",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -475,7 +475,7 @@
 			"name": "python type",
 			"scope": "support.type.python",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -708,7 +708,7 @@
 			"name": "Support",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -757,7 +757,7 @@
 			"name": "Constant other symbol",
 			"scope": "constant.other.symbol",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -966,14 +966,14 @@
 			"name": "Regular Expressions",
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
 			"name": "Escape Characters",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -1050,7 +1050,7 @@
 			"name": "Source Json Meta Structure Dictionary Json > Constant Language Json,source Json Meta Structure Array Json > Constant Language Json",
 			"scope": "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -1204,7 +1204,7 @@
 			"name": "python function support",
 			"scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -1232,14 +1232,14 @@
 			"name": "constant.language.symbol.ruby",
 			"scope": "constant.language.symbol.ruby",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
 			"name": "rgb-value",
 			"scope": "rgb-value",
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -1431,7 +1431,7 @@
 			"keyword.operator.assignment.go"
 			],
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -1459,7 +1459,7 @@
 			"support.type.prelude.elm"
 			],
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -1496,7 +1496,7 @@
 			"entity.other.attribute-name.pseudo-class"
 			],
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -1523,7 +1523,7 @@
 			"constant.keyword.clojure"
 			],
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -1657,7 +1657,7 @@
 			"entity.name.class.xi"
 			],
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -1684,7 +1684,7 @@
 			"keyword.control.xi"
 			],
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
@@ -1817,7 +1817,7 @@
 			"constant.language.symbol.elixir"
 			],
 			"settings": {
-				"foreground": "#c569fd"
+				"foreground": "#c265e5"
 			}
 		},
 		{
