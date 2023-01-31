@@ -15,6 +15,8 @@ A soft, dark theme for **Visual Studio Code**.
 **Oboro** has mostly been tested with `C`, `C#` and `Python`.\
 If you would like to improve support for another language, feel free to open an [issue](https://github.com/Kusefiru/Oboro/issues/new) or create a PR.
 
+Global color scheme improvements are also welcome.
+
 I recommend the following fonts with **Oboro**:
 
 - [Fira Code](https://github.com/tonsky/FiraCode)
