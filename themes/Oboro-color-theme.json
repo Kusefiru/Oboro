@@ -652,7 +652,7 @@
 			"name": "Type Name",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#f8bfdb"
+				"foreground": "#d7697c"
 			}
 		},
 		{
@@ -1963,6 +1963,12 @@
 		"editor.foldBackground": "#4c496280",
 		"editorOverviewRuler.background": "#222036",
 		"editorOverviewRuler.border": "#00000000",
+		"editorOverviewRuler.modifiedForeground": "#73c9ee",
+		"editorOverviewRuler.addedForeground": "#68f096",
+		"editorOverviewRuler.deletedForeground": "#d7697c",
+		"editorOverviewRuler.errorForeground": "#d7697c",
+		"editorOverviewRuler.warningForeground": "#e8d4b8",
+		"editorOverviewRuler.infoForeground": "#706886",
 		"editorError.foreground": "#d7697c",
 		"editorError.background": "#00000000",
 		"editorError.border": "#00000000",
