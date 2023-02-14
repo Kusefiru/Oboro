@@ -2,6 +2,13 @@
 
 All notable changes to **Oboro** following release will be documented in this file.
 
+## [0.1.7]
+
+- Adjust background and comments colors
+- Add missing overviewRulers colors
+- Soften bright magenta color
+- [C] Change `entity.name.type` default color to match storage objects
+
 ## [0.1.6]
 
 - Add missing background colors for settings
