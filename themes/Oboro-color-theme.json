@@ -3,20 +3,20 @@
 	"type": "dark",
 	"semanticHighlighting": true,
 	"semanticTokenColors":{
-		"class": "#61c0b2",
+		"class": "#80a4ec",
 		"function": "#e8aa9b",
 		"method": "#e8aa9b",
-		"module": "#aa9def",
+		"module": "#5e6cd6",
 		"type": "#f06c82",
-		"parameter": "#f8e8d4",
-		"property": "#f8e8d4",
+		"parameter": "#d8cbb2",
+		"property": "#d8cbb2",
 		"builtinConstant": "#FFBF00",
 		"variable": {
-			"foreground": "#f8e8d4",
+			"foreground": "#d8cbb2",
 			"fontStyle": "italic"
 		},
 		"enumMember": {
-			"foreground": "#72add8",
+			"foreground": "#80a4ec",
 			"fontStyle": "italic"
 		},
 		// Python tokens
@@ -35,7 +35,7 @@
 			"name": "strings",
 			"scope": "string.quoted",
 			"settings": {
-				"foreground": "#aa9def",
+				"foreground": "#ac9df7",
 			}
 		},
 		{
@@ -49,7 +49,7 @@
 			"name": "directives",
 			"scope": "keyword.control.directive",
 			"settings": {
-				"foreground": "#5e6ad2",
+				"foreground": "#5e6cd6",
 			}
 		},
 		{
@@ -71,7 +71,7 @@
 			"name": "markup.code",
 			"scope": "markup.fenced_code, markup.inline.raw",
 			"settings": {
-				"foreground": "#aa9def",
+				"foreground": "#ac9df7",
 			}
 		},
 		{
@@ -106,7 +106,51 @@
 			"name": "markup.anchors",
 			"scope": "entity.name.tag.anchor",
 			"settings":{
-				"foreground": "#72add8"
+				"foreground": "#80a4ec"
+			}
+		},
+		// Ini syntax color
+		{
+			"name": "ini.title",
+			"scope": "entity.name.section.group-title.ini",
+			"settings": {
+				"foreground": "#e8aa9b",
+			}
+		},
+		{
+			"name": "ini.definition",
+			"scope": "keyword.other.definition.ini",
+			"settings": {
+				"foreground": "#80a4ec",
+			}
+		},
+		{
+			"name": "ini.punctuation",
+			"scope": "punctuation.separator.key-value.ini",
+			"settings":{
+				"foreground": "#f84c70"
+			}
+		},
+		// JSON syntax color
+		{
+			"name": "json.property",
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#80a4ec",
+			}
+		},
+		{
+			"name": "json.property.quotes",
+			"scope": "punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json",
+			"settings": {
+				"foreground": "#5e6cd6",
+			}
+		},
+		{
+			"name": "json.keywords",
+			"scope": "constant.language.json",
+			"settings": {
+				"foreground": "#f84c70",
 			}
 		},
 		// C Syntax color
@@ -114,7 +158,7 @@
 			"name": "c.keywords",
 			"scope": "keyword.control.c, keyword.control.switch.c, keyword.control.case.c, keyword.control.default.c, keyword.other.typedef.c",
 			"settings": {
-				"foreground": "#ba72fa",
+				"foreground": "#66c0b2",
 				"fontStyle": "italic",
 			}
 		},
@@ -129,7 +173,7 @@
 			"name": "c.defines",
 			"scope": "entity.name.function.preprocessor.c",
 			"settings": {
-				"foreground": "#72add8",
+				"foreground": "#80a4ec",
 			}
 		},
 		{
@@ -151,7 +195,7 @@
 			"name": "c.preprocessor",
 			"scope": "keyword.control.directive.include.c, keyword.control.directive.define.c, keyword.control.directive.conditional.c",
 			"settings": {
-				"foreground": "#5e6ad2",
+				"foreground": "#5e6cd6",
 				"fontStyle": "italic",
 			}
 		},
@@ -159,7 +203,7 @@
 			"name": "c.preprocessor.parameter",
 			"scope": "variable.parameter.preprocessor.c, variable.parameter.probably.c",
 			"settings": {
-				"foreground": "#f8e8d4",
+				"foreground": "#d8cbb2",
 			}
 		},
 		// Python syntax color
@@ -167,7 +211,7 @@
 			"name": "python.keywords",
 			"scope": "keyword.control.import.python",
 			"settings": {
-				"foreground": "#5e6ad2",
+				"foreground": "#3d988d",
 				"fontStyle": "italic",
 			}
 		},
@@ -175,7 +219,7 @@
 			"name": "python.keywords",
 			"scope": "keyword.control.flow.python",
 			"settings": {
-				"foreground": "#ba72fa",
+				"foreground": "#66c0b2",
 				"fontStyle": "italic",
 			}
 		},
@@ -183,7 +227,7 @@
 			"name": "python.keywords.storage",
 			"scope": "storage.type.class.python, storage.type.function.python, storage.type.function.async.python",
 			"settings": {
-				"foreground": "#5e6ad2",
+				"foreground": "#3d988d",
 				"fontStyle": "italic",
 			}
 		},
@@ -191,7 +235,7 @@
 			"name": "python.types",
 			"scope": "support.type.python",
 			"settings": {
-				"foreground": "#5e6ad2",
+				"foreground": "#3d988d",
 			}
 		},
 		{
@@ -205,7 +249,7 @@
 			"name": "python.function-call.parameter",
 			"scope": "variable.parameter.function-call.python",
 			"settings": {
-				"foreground": "#f8e8d4",
+				"foreground": "#d8cbb2",
 			}
 		},
 		{
@@ -227,18 +271,18 @@
 			"name": "makefile.variable",
 			"scope": "variable.other.makefile",
 			"settings": {
-				"foreground": "#f8e8d4",
+				"foreground": "#80a4ec",
 			}
 		},
 		{
 			"name": "makefile.punctuation",
-			"scope": "punctuation.definition.variable.makefile, punctuation.separator.key-value.makefile, constant.character.escape.continuation.makefile",
+			"scope": "punctuation.definition.variable.makefile, punctuation.separator.key-value.makefile, constant.character.escape.continuation.makefile, keyword.control.@.makefile",
 			"settings": {
 				"foreground": "#f84c70",
 			}
 		},
 		{
-			"name": "makefile.phonu",
+			"name": "makefile.phony",
 			"scope": "support.function.target.PHONY.makefile",
 			"settings": {
 				"foreground": "#f06c82",
@@ -248,14 +292,22 @@
 			"name": "makefile.functions",
 			"scope": "meta.scope.function-call.makefile, variable.language.makefile",
 			"settings": {
-				"foreground": "#5e6ad2",
+				"foreground": "#5e6cd6",
 			}
 		},
 		{
-			"name": "makefile.specia-variables",
+			"name": "makefile.control",
+			"scope": "keyword.control.ifeq.makefile, keyword.control.ifneq.makefile, keyword.control.else.makefile, keyword.control.endif.makefile",
+			"settings": {
+				"foreground": "#66c0b2",
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"name": "makefile.special-variables",
 			"scope": "variable.language.makefile",
 			"settings": {
-				"foreground": "#72add8",
+				"foreground": "#d8cbb2",
 			}
 		},
 		// Batch syntax colors
@@ -263,14 +315,14 @@
 			"name": "bat.functions",
 			"scope": "keyword.command.batchfile",
 			"settings": {
-				"foreground": "#5e6ad2",
+				"foreground": "#5e6cd6",
 			}
 		},
 		{
 			"name": "bat.keywords",
 			"scope": "keyword.control.conditional.batchfile, keyword.control.statement.batchfile",
 			"settings": {
-				"foreground": "#ba72fa",
+				"foreground": "#66c0b2",
 			}
 		},
 		{
@@ -291,7 +343,7 @@
 			"name": "bat.variable",
 			"scope": "variable.other.readwrite.batchfile",
 			"settings": {
-				"foreground": "#f8e8d4",
+				"foreground": "#d8cbb2",
 			}
 		},
 	],
@@ -388,8 +440,8 @@
 		"gitDecoration.modifiedResourceForeground": "#78f0A6",
 		"gitDecoration.stageDeletedResourceForeground": "#f84c70",
 		"gitDecoration.stageModifiedResourceForeground": "#78f0A6",
-		"gitDecoration.submoduleResourceForeground": "#ba72fa",
-		"gitDecoration.untrackedResourceForeground": "#aa9def",
+		"gitDecoration.submoduleResourceForeground": "#ca82fa",
+		"gitDecoration.untrackedResourceForeground": "#ac9df7",
 		"list.focusBackground": "#222234",
 		"list.focusForeground": "#D0C7E0",
 		"list.hoverBackground": "#222234",
